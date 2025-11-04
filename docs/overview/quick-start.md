@@ -9,26 +9,32 @@ VisionAI is an enterprise-grade computer vision platform that transforms your ex
         <h3>Sign In</h3>
         <p>Create your enterprise account and set up team access</p>
     </a>
-    <a href="#step-2-camera-integration" class="flow-item">
+    <a href="#step-2-profile-setup" class="flow-item">
         <span class="flow-number">2</span>
+        <span class="material-symbols-outlined">manage_accounts</span>
+        <h3>Profile Setup</h3>
+        <p>Configure your profile</p>
+    </a>
+    <a href="#step-2-camera-integration" class="flow-item">
+        <span class="flow-number">3</span>
         <span class="material-symbols-outlined">videocam</span>
         <h3>Cameras</h3>
         <p>Connect your existing camera infrastructure</p>
     </a>
     <a href="#step-3-scenario-configuration" class="flow-item">
-        <span class="flow-number">3</span>
+        <span class="flow-number">4</span>
         <span class="material-symbols-outlined">memory</span>
         <h3>AI Scenarios</h3>
         <p>Select and customize safety monitoring scenarios</p>
     </a>
     <a href="#step-4-events-dashboard" class="flow-item">
-        <span class="flow-number">4</span>  
+        <span class="flow-number">5</span>  
         <span class="material-symbols-outlined">view_agenda</span>
         <h3>Events</h3>
         <p>Select and customize safety monitoring scenarios</p>
     </a>
      <a href="#step-5-task-Management" class="flow-item">
-        <span class="flow-number">5</span>
+        <span class="flow-number">6</span>
         <span class="material-symbols-outlined">list_alt_check</span>
         <h3>Tasks</h3>
         <p>Detailing the tasks assigned, their progress, and recommendations for improvement</p>
@@ -37,25 +43,25 @@ VisionAI is an enterprise-grade computer vision platform that transforms your ex
 
 <div class="quick-start-flow">
     <a href="#step-6-view-access" class="flow-item">
-        <span class="flow-number">6</span>
+        <span class="flow-number">7</span>
         <span class="material-symbols-outlined">speed_camera</span>
         <h3>Views</h3>
         <p>It allows administrators to create custom views that provide a structured way to monitor surveillance data efficiently</p>
     </a>
     <a href="#step-7-alert-configuration" class="flow-item">
-        <span class="flow-number">7</span>
+        <span class="flow-number">8</span>
         <span class="material-symbols-outlined">notifications_active</span>
         <h3>Alerts</h3>
         <p>Set up notifications and response workflows</p>
     </a>
     <a href="#step-8-dashboard-access" class="flow-item">
-        <span class="flow-number">8</span>
+        <span class="flow-number">9</span>
         <span class="material-symbols-outlined">dashboard</span>
         <h3>Dashboard</h3>
         <p>Monitor safety metrics in real-time</p>
     </a>
      <a href="#step-9-sites-comparison" class="flow-item">
-        <span class="flow-number">9</span>
+        <span class="flow-number">10</span>
         <span class="material-symbols-outlined">query_stats</span>
         <h3>Sites Comparison</h3>
         <p>This report provides a summary of site comparison insights</p>
@@ -102,7 +108,79 @@ Getting started with VisionAI is simple. Here's how to activate your enterprise 
 
 ---
 
-## Step 2: Camera Onboarding {#step-2-camera-integration}
+## Step 2: Profile Setup  {#step-2-profile-setup}
+
+Setting up your profile is the first step in configuring VisionAI. This section helps you personalize your account and secure access.
+
+<div class="setup-steps">
+    <div class="setup-step">
+        <img src="../../img/Profile-Main.png" alt="Profile" />
+        <div class="step-content">
+            <h4>1. Access your Profile</h4>
+            <p>Click the <strong>PROFILE</strong> tab in the top-right navigation bar to view your account details including name, email, account information and notification preferences.
+            You can edit your profile or navigate to the <strong>Change</strong> tab to update your credentials securely. </p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/Users-Main.png" alt="Users-tab" />
+        <div class="step-content">
+            <h4>2. User Management</h4>
+        <p><strong>View All Users</strong><br>
+          The <strong>Users</strong> tab displays all registered users, including usernames, email addresses, phone numbers, and account status. Admins can disable accounts directly from the <strong>Actions</strong> column.</p>
+        <p><strong>Edit User Details</strong><br>
+          Click the <strong>Settings</strong> icon under <strong>Actions</strong> to modify user information such as name, role, and contact details.</p>
+        <p><strong>Add New Users</strong><br>
+          Click the <strong>ADD USER</strong> button at the top-right to onboard new users. Fill in the required fields and assign appropriate roles.</p>   
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/Company-main.png" alt="Company" />
+        <div class="step-content">
+            <h4>3. Company</h4>
+            <p>Access your company’s information, including name, location, and administrative contact details.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/Sites-info.png" alt="Sites" />
+        <div class="step-content">
+            <h4>4. Sites</h4>
+            <p><strong>View Registered Sites</strong><br>
+          Navigate to the <strong>SITES</strong> tab to view all registered locations. Each site includes ID, name, camera count, and operational status.</p>
+          <p><strong>Manage Tokens</strong><br>
+          Use the <strong>Key</strong> tab to view, generate, and manage authentication tokens.
+        </p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/Teams-Webhook.png" alt="Microsoft-Teams" />
+        <div class="step-content">
+            <h4>5. Microsoft Teams</h4>
+            <p>
+        Open the <strong>Microsoft Teams</strong> tab to view all configured webhook entries. Each entry includes the webhook name and URL.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/integration.png" alt="Integrations" />
+        <div class="step-content">
+            <h4>6. Integrations</h4>
+            <p>
+        Go to the <strong>Integrations</strong> tab to see all active connections, including webhook URLs and status indicators.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/Release-notes.png" alt="Release-notes" />
+        <div class="step-content">
+            <h4>7. Release Notes</h4>
+            <p>Open the <strong>Release Notes</strong> tab to view documentation on new features, bug fixes, and system improvements. Severity levels and enhancements are clearly listed for each release.</p>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+## Step 3: Camera Onboarding {#step-2-camera-integration}
 
 Connecting your cameras to VisionAI is straightforward. Follow these steps to integrate your existing camera infrastructure:
 
@@ -136,56 +214,53 @@ Connecting your cameras to VisionAI is straightforward. Follow these steps to in
 
 ---
 
-## Step 3: Configuring AI Scenarios  {#step-3-scenario-configuration}
-<div class="step-with-media equal-split">
-  <div class="media-container">
-    <img src="../../img/scenario_config.gif" alt="Scenario Configuration" />
-  </div>
-  <div class="steps-container">
+## Step 4: Configuring AI Scenarios  {#step-3-scenario-configuration}
+
+<div class="setup-steps">
     <div class="setup-step">
-      <div class="step-number">1</div>
-      <div class="step-content">
-        <h4>Initiate Scenario Setup</h4>
-        <p>Click "Add New Scenario" on camera details page to begin configuration.</p>
-      </div>
+        <img src="../../img/scenario-add.png" alt="Scenario-main" />
+        <div class="step-content">
+            <h4>1. Initiate Scenario Setup </h4>
+            <p>Select a camera.<br>Click "Add New Scenario" on camera details page to begin configuration.</p>
+        </div>
     </div>
     <div class="setup-step">
-      <div class="step-number">2</div>
-      <div class="step-content">
-        <h4>Select a Scenario</h4>
-        <p>Choose from available safety scenarios by clicking "Get This" button.</p>
-      </div>
+        <img src="../../img/scenario-ai.png" alt="Add Scenario" />
+        <div class="step-content">
+            <h4>2. Select a Scenario</h4>
+            <p>Choose from available safety scenarios by clicking "Get This" button.</p>
+        </div>
     </div>
     <div class="setup-step">
-      <div class="step-number">3</div>
-      <div class="step-content">
-        <h4>Set Up Monitoring Zones</h4>
-        <p>Draw and adjust monitoring zones directly on camera feed.</p>
-      </div>
+        <img src="../../img/scenario-zones.png" alt="Scenario Zones" />
+        <div class="step-content">
+            <h4>3. Set Up Monitoring Zones </h4>
+            <p>Draw and adjust monitoring zones directly on camera feed by dragging on a specific area and save it. <br>Apply a event and click next.</p>
+        </div>
     </div>
     <div class="setup-step">
-      <div class="step-number">4</div>
-      <div class="step-content">
-        <h4>Configure Pause Times</h4>
-        <p>Set break periods to pause detection during scheduled downtimes.</p>
-      </div>
+        <img src="../../img/scenario-timeslots.png" alt="Scenario Timeslots" />
+        <div class="step-content">
+            <h4>4. Configure Pause Times  </h4>
+            <p>Set break periods to pause detection during scheduled downtimes.</p>
+        </div>
     </div>
-    <div class="setup-step">
-      <div class="step-number">5</div>
-      <div class="step-content">
-        <h4>Fine-tune Settings</h4>
-        <p>Adjust confidence thresholds and duration, then click "Apply".</p>
-      </div>
+     <div class="setup-step">
+        <img src="../../img/scenario-confidence.png" alt="Scenario Confidence" />
+        <div class="step-content">
+            <h4>5. Fine-tune Settings </h4>
+            <p>Adjust confidence thresholds and duration, then click "Apply".</p>
+        </div>
     </div>
-  </div>
 </div>
+
 
 !!! tip
     Start with the default parameters and adjust them later based on the specific needs of your environment. These settings can always be modified at any time.
 
 ---
 
-## Step 4: Events {#step-4-events-dashboard}
+## Step 5: Events {#step-4-events-dashboard}
 Setting up safety monitoring scenarios in VisionAI is straightforward. Follow these steps to configure your first scenario:
 
 <div class="setup-steps">
@@ -203,12 +278,19 @@ Setting up safety monitoring scenarios in VisionAI is straightforward. Follow th
             <p>On the Event Details page, you can view a 12-second video clip of the event. You can click thumbs up/down to vote on the event. Additionally, you can <b>leave a review, mark the event as accurate or inaccurate</b>, and view the severity level of the event—categorized as <b>Low, Moderate, or High</b>—to better understand its criticality.</p>
         </div>
     </div>
+    <div class="setup-step">
+        <img src="../../img/review-box.png" alt="Events Page" />
+        <div class="step-content">
+            <h4>3. Review</h4>
+            <p>On the Event Details page, you can review the event by adding comments in the <b>REVIEW BOX'</b> and save it for further record purposes. </p>
+        </div>
+    </div>
 </div>
 !!! tip
     Start with the default parameters and adjust them later based on the specific needs of your environment. These settings can always be modified at any time.
 ---
 
-## Step 5: Tasks {#step-5-task-Management}
+## Step 6: Tasks {#step-5-task-Management}
 The VisionAI Task Management is essential to ensure work is organized, responsibilities are clear, and progress is tracked effectively within the application:
 
 <div class="setup-steps">
@@ -224,7 +306,7 @@ The VisionAI Task Management is essential to ensure work is organized, responsib
     Use clear titles and due dates when creating tasks to ensure easy tracking and accountability. Regularly update task statuses to keep your team informed and aligned.
 ---
 
-## Step 6: Views {#step-6-view-access}
+## Step 7: Views {#step-6-view-access}
 
 The purpose of the Views feature is to provide customized dashboards for specific cameras, areas, or events, enabling quick access to incident insights and performance metrics for faster decision-making.
 
@@ -241,7 +323,7 @@ The purpose of the Views feature is to provide customized dashboards for specifi
     Create separate views for high-priority areas or event types to quickly monitor critical incidents without filtering through all data—this saves time and improves response efficiency.
 ---
 
-## Step 7: Alerts {#step-7-alert-configuration}
+## Step 8: Alerts {#step-7-alert-configuration}
 Configure comprehensive notification settings through your dedicated observability platform at `customername.visionify.ai/observability`. VisionAI offers multiple alert types to ensure your team stays informed of safety events:
 
 <div class="setup-steps">
@@ -292,7 +374,7 @@ Configure comprehensive notification settings through your dedicated observabili
     Combine multiple alert types for comprehensive coverage. For example, use speaker alerts for immediate on-site response, while keeping management informed through daily digests and periodic reports.
 ---
 
-## Step 8: Dashboard {#step-8-dashboard-access}
+## Step 9: Dashboard {#step-8-dashboard-access}
 The VisionAI dashboard provides comprehensive insights into your safety metrics and events. Here's how to navigate and utilize the dashboard effectively:
 
 <div class="setup-steps">
@@ -300,7 +382,7 @@ The VisionAI dashboard provides comprehensive insights into your safety metrics 
         <img src="../../img/visionify-dashboard-metrics.jpg" alt="Dashboard Metrics" />
         <div class="step-content">
             <h4>Safety Metrics Overview</h4>
-            <p>Access the Dashboard from the left navigation menu to view key safety metrics. Select custom time ranges to analyze trends across weeks, months, or specific date ranges. Track compliance rates, incident counts, and safety improvements over time.</p>
+            <p>Access the Dashboard from the left navigation menu to view key safety metrics. Select custom time ranges to analyze trends across weeks, months, or specific date ranges. Track compliance rates, incident counts, and safety improvements over time.<br> Generate reports for further offline review.</p>
         </div>
     </div>
 </div>
@@ -308,7 +390,7 @@ The VisionAI dashboard provides comprehensive insights into your safety metrics 
     Use the dashboard's filtering capabilities to focus on specific areas or types of safety events. This helps in identifying patterns and addressing recurring safety concerns promptly.
 ---
 
-## Step 9: Sites Comparison {#step-9-sites-comparison}
+## Step 10: Sites Comparison {#step-9-sites-comparison}
 The VisionAI The Sites for Comparison page is to enable users to analyze and evaluate safety performance across different locations, helping identify high-risk areas, improvement opportunities, and trends over time.
 
 <div class="setup-steps">
