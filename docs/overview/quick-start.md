@@ -126,9 +126,9 @@ Setting up your profile is the first step in configuring VisionAI. This section 
         <div class="step-content">
             <h4>2. User Management</h4>
         <p><strong>View All Users</strong><br>
-          The <strong>Users</strong> tab displays all registered users, including usernames, email addresses, phone numbers, and account status. Admins can disable accounts directly from the <strong>Actions</strong> column.</p>
-        <p><strong>Edit User Details</strong><br>
-          Click the <strong>Settings</strong> icon under <strong>Actions</strong> to modify user information such as name, role, and contact details.</p>
+          The <strong>Users</strong> tab displays all registered users and respective details.</p><br> 
+        <p><strong>Edit User Details</strong>
+          Click the <strong>Settings</strong> icon under <strong>Actions</strong> to modify user information.<br> Admins can disable accounts directly from the same column.</p><br>
         <p><strong>Add New Users</strong><br>
           Click the <strong>ADD USER</strong> button at the top-right to onboard new users. Fill in the required fields and assign appropriate roles.</p>   
         </div>
@@ -145,7 +145,7 @@ Setting up your profile is the first step in configuring VisionAI. This section 
         <div class="step-content">
             <h4>4. Sites</h4>
             <p><strong>View Registered Sites</strong><br>
-          Navigate to the <strong>SITES</strong> tab to view all registered locations. Each site includes ID, name, camera count, and operational status.</p>
+          Navigate to the <strong>SITES</strong> tab to view all registered locations. Each site includes ID, name, camera count, and operational status.</p><br>
           <p><strong>Manage Tokens</strong><br>
           Use the <strong>Key</strong> tab to view, generate, and manage authentication tokens.
         </p>
@@ -174,10 +174,9 @@ Setting up your profile is the first step in configuring VisionAI. This section 
             <p>Open the <strong>Release Notes</strong> tab to view documentation on new features, bug fixes, and system improvements. </p>
         </div>
     </div>
-
-
-
 </div>
+
+---
 
 
 ## Step 3: Camera Onboarding {#step-2-camera-integration}
@@ -275,7 +274,7 @@ Setting up safety monitoring scenarios in VisionAI is straightforward. Follow th
         <img src="../../img/visionify-event-details.jpg" alt="Events Page" />
         <div class="step-content">
             <h4>2. Event Details</h4>
-            <p>On the Event Details page, you can view a 12-second video clip of the event. You can click thumbs up/down to vote on the event. Additionally, you can <b>leave a review, mark the event as accurate or inaccurate</b>, and view the severity level of the event—categorized as <b>Low, Moderate, or High</b>—to better understand its criticality.</p>
+            <p>On the Event Details page, you can view a 12-second video clip of the event. You can click thumbs up/down to vote on the event.<br>Additionally, you can <b>mark the event as accurate or inaccurate</b>, and view the severity level of the event—categorized as <b>Low, Moderate, or High</b>—to better understand its criticality.</p>
         </div>
     </div>
     <div class="setup-step">
@@ -298,7 +297,7 @@ The VisionAI Task Management is essential to ensure work is organized, responsib
         <img src="../../img/visionify-task.jpg" alt="Task" />
         <div class="step-content">
             <h4>Task Overview</h4>
-            <p>Access the Dashboard from the left navigation menu to view key Task.Task Management helps users create, assign, track, and manage tasks within the application. It ensures that all work items are organized, progress is monitored, and responsibilities are clear.</p>
+            <p>Access the Dashboard from the left navigation menu to view key Task.<br>Task Management helps users create, assign, track, and manage tasks within the application. It ensures that all work items are organized, progress is monitored, and responsibilities are clear.</p>
         </div>
     </div>
 </div>
@@ -315,7 +314,7 @@ The purpose of the Views feature is to provide customized dashboards for specifi
         <img src="../../img/visionify-views.jpg" alt="Views" />
         <div class="step-content">
             <h4>Views Overview</h4>
-            <p>Access the Dashboard from the left navigation menu to view key Views.The purpose of the Views page is to allow users to create and monitor customized event dashboards for specific cameras, areas, or events, enabling quick access to relevant incident data and performance metrics.</p>
+            <p>Access the Dashboard from the left navigation menu to view key Views.<br>The purpose of the Views page is to allow users to create and monitor customized event dashboards for specific cameras, areas, or events, enabling quick access to relevant incident data and performance metrics.</p>
         </div>
     </div>
 </div>
