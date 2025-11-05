@@ -171,7 +171,7 @@ Setting up your profile is the first step in configuring VisionAI. This section 
         <img src="../../img/Release-notes.png" alt="Release-notes" />
         <div class="step-content">
             <h4>7. Release Notes</h4>
-            <p>Open the <strong>Release Notes</strong> tab to view documentation on new features, bug fixes, and system improvements. Severity levels and enhancements are clearly listed for each release.</p>
+            <p>Open the <strong>Release Notes</strong> tab to view documentation on new features, bug fixes, and system improvements. </p>
         </div>
     </div>
 
