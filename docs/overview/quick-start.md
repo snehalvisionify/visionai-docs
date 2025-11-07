@@ -281,7 +281,7 @@ Setting up safety monitoring scenarios in VisionAI is straightforward. Follow th
         <img src="../../img/review-box.png" alt="Events Page" />
         <div class="step-content">
             <h4>3. Review</h4>
-            <p>On the Event Details page, you can review the event by adding comments in the <b>REVIEW BOX'</b> and save it for further record purposes. </p>
+            <p>On the Event Details page, you can review the event by adding comments in the <b>REVIEW BOX</b> and save it for further record purposes. </p>
         </div>
     </div>
 </div>
